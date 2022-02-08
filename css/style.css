@@ -1,0 +1,97 @@
+@import url("null.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+@font-face {
+    font-family: Galaktika;
+    src: url("../fonts/Galaktika.woff2") format("woff2"), url("../fonts/Galaktika.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: HarryPotte;
+    src: url("../fonts/HarryPotterRussianVersionofGfdtk.woff2") format("woff2"),
+        url("../fonts/HarryPotterRussianVersionofGfdtk.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background: rgb(179, 174, 174);
+}
+
+.wrapper {
+    max-width: 1080px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 15px;
+    height: 100%;
+    color: rgb(206, 203, 203);
+}
+.title {
+    font-family: HarryPotte;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0 0 20px 0;
+}
+.subtitle {
+    margin: 0 0 70px 0;
+    font-size: 12px;
+    color: rgb(250, 210, 210);
+    font-family: Galaktika;
+}
+.info {
+    margin: 0 0 70px 0;
+    font-size: 20px;
+    color: rgb(199, 218, 219);
+    font-family: Galaktika;
+    line-height: 2;
+}
+.info-red {
+    color: red;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.info-blue {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.delimiter {
+    height: 2px;
+    width: 100%;
+    background: rgb(216, 216, 216);
+    margin: 0 0 70px 0;
+}
+
+.second-info {
+    height: 200px;
+    text-align: right;
+    overflow: auto;
+    margin: 0 0 70px 0;
+}
+
+.tdu {
+    text-decoration: underline;
+}
+
+.last-text {
+    text-align: justify;
+}
+
+.link {
+    display: inline-block;
+    text-align: center;
+}
+.link img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.link span {
+    margin-left: -30px;
+}
