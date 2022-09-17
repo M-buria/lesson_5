@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:regular,700,italic,700italic&display=swap');
+@font-face {
+	font-family: "Oilvare";
+	src: url("../fonts/Oilvare-Regular.woff2") format("woff2"), url("../fonts/Oilvare-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Oilvare";
+	src: url("../fonts/Oilvare-Italic.woff2") format("woff2"), url("../fonts/Oilvare-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+} 
+
+body{
+	font-size: 30px;
+	font-family:"Nunito";
+}
+
+h1{
+font-weight: 700;
+text-transform: uppercase;
+font-size: 50px;
+text-align: center;
+text-decoration:underline;
+text-shadow: 10px 2px 6px #000;
+margin: 40px 0px;
+letter-spacing: 15px;
+}
+.wrapper{
+	padding: 15px;
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.text {
+}
+.text-first {
+	font-family: "Oilvare";
+	margin-bottom: 20px;
+	font-size: 30px;
+	text-align: right;
+}
+.text-second {
+	font-family: "Oilvare";
+	font-style: italic;
+	margin-bottom: 20px;
+	color: red;
+	text-align: justify;
+}
+.text-third {
+	text-indent: 40px;
+	margin-bottom: 20px;
+	line-height:2;
+	text-decoration: overline;
+	
+}
+.text-fourth {
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	text-decoration: line-through;
+}
+.footer{
+	white-space: nowrap;
+}
+.footer img{
+	margin-left: 20px;
+
+}
